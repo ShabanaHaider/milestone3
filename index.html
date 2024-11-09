@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic resume builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">DYNAMIC RESUME BUILDER</h1>
+    <form id="fillable-resume">
+        
+
+
+        <fieldset>
+            
+            <legend><b>Personal Information</b></legend>
+            <div style="text-align: center;">
+                
+              <label for="name">Name</label><br>
+              <input type="text" id="name" placeholder="Enter your name" required><br><br>
+          
+              <label for="email">Email</label><br>
+              <input type="email" id="email" placeholder="Enter your email" required><br><br>
+          
+              <label for="phone">Phone</label><br>
+              <input type="tel" id="phone" placeholder="Enter your phone number" required><br><br>
+            </div>
+          </fieldset>
+          
+          <fieldset>
+            <legend><b>Education</b></legend>
+            <div style="text-align: center;">
+              <label for="education">Education</label><br>
+              <textarea id="education" placeholder="Enter your education" rows="4" required></textarea><br><br>
+            </div>
+          </fieldset>
+          
+          <fieldset>
+            <legend><b>Work Experience</b></legend>
+            <div style="text-align: center;">
+              <label for="exp">Work Experience</label><br>
+              <textarea id="exp" placeholder="Enter your work experience" rows="4" required></textarea><br><br>
+            </div>
+          </fieldset>
+          
+          <fieldset>
+            <legend><b>Skills</b></legend>
+            <div style="text-align: center;">
+              <label for="skill">Skills</label><br>
+              <textarea id="skill" placeholder="Enter your skills" rows="4" required></textarea><br><br>
+            </div>
+          </fieldset>      
+
+            
+
+
+
+
+        
+        
+<div text-align="center">
+        <button type="submit"><b>Generate Resume</b></button>   
+</div>
+
+
+    </form>
+    <br>
+    <!-- Dynamic resume -->
+     <div id="resume-outlook">
+        <!-- resume will be generated below -->
+
+
+     </div>
+     <script src="script.js"></script>
+
+    
+</body>
+</html>
